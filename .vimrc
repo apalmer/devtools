@@ -9,6 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " colorschemes
 Plugin 'midnight2.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " javascript editor
 Plugin 'jelera/vim-javascript-syntax'
@@ -30,6 +31,7 @@ call vundle#end()            " required
 filetype plugin indent on    " require
 " Put your non-Plugin stuff after this line
 syntax on
+syntax enable
 colorscheme midnight2 
 filetype indent on
 
