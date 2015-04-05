@@ -27,6 +27,15 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'othree/html5.vim'
 Plugin 'rstacruz/sparkup'
 
+" JavaScript 
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Raimondi/delimitMate'
+"Plugin 'scrooloose/syntastic'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'marijnh/tern_for_vim'
+
 "file explorer
 Plugin 'scrooloose/nerdtree'
 
@@ -40,7 +49,7 @@ filetype on    " required
 
 " visual configuration
 " --------------------------------------------------------------------------------------------------
-set guifont=Lucida_Console:h13:cDEFAULT
+"set guifont=Lucida_Console:h13:cDEFAULT
 colorscheme midnight2 
 
 " coding configuration
